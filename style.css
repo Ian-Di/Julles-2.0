@@ -553,14 +553,15 @@ html{
 }
 
 .header .text-header h2{
-    font-size: 5.5vh;
+    font-size: 4.5vh;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #FFFBFF;
+
 }
 
 .header .text-header p{
-    font-size: 2.3vh;
+    font-size: 2vh;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #FFFBFF;
@@ -582,6 +583,13 @@ html{
     margin: 60px 0px;
 }
 
+.main-1 .titles h1{
+    font-size: 4vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #001029;
+}
+
 .main-1 .area-cards-1{
     display: grid;
     grid-template-columns: repeat(1,2fr);
@@ -593,6 +601,12 @@ html{
     padding: 40px 20px;
     
     width: 300px;
+}
+
+.main-1 .button a{
+    display: flex;
+    justify-content: center;
+    width: 200px;
 }
 
 .main-2{
@@ -621,6 +635,10 @@ html{
 .main-2 .titles .p1 hr{
     display: flex;
     place-self: center;
+}
+
+.main-2 .titles .p1 p br{
+    display: none;
 }
 
 .main-2 .titles .p2 p{
@@ -652,7 +670,8 @@ html{
 }
 
 .main-2 .button a{
-    font-size: 2.3vh;
+    padding: 20px;
+    font-size: 2vh;
 }
 
 .main-2 .button a:hover{
@@ -661,6 +680,13 @@ html{
 
 .main-3{
     padding: 40px 20px;
+}
+
+.main-3 .titles h1{
+    font-size: 4vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #FFFBFF;
 }
 
 .main-3 .area-cards-2{
